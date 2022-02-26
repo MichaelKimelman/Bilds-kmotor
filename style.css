@@ -1,0 +1,153 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+#pagenumber{
+    list-style-type: none;
+}
+
+#searchform{  
+    display: flex;
+    flex-direction: row;
+}
+#pagebuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchinput{
+    margin-right: 5px;
+    
+}
+#previousbutton{
+    margin-right: 5px;
+    
+}
+#searchform{
+    margin-bottom: 10px;
+}
+h1{
+    font-family: sans-serif;
+}
+@media (min-width: 360px) {
+img{
+    width: 275px;
+} 
+    #entertest {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        
+        
+        
+        gap: 10px;
+    }
+    #list{ 
+        
+        padding: 0;
+        margin: 0;
+        flex: 0 1 500px;
+    }
+}
+
+@media (min-width: 500px) {
+    img{
+        width: 400px;
+    }
+    
+}
+
+@media (min-width: 900px) {
+    img{
+        width: 400px;
+    }
+
+    #entertest {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0 auto;
+        flex: 1 0 400px;
+        gap: 10px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    img{
+        width: 550px;
+    }
+
+    #entertest {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0 auto;
+        flex: 1 0 400px;
+        gap: 10px;
+    }
+    
+}
+
+@media (min-width: 1710px) {
+    img{
+        width: 700px;
+    }
+
+    #entertest {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0 auto;
+        flex: 1 0 400px;
+        gap: 10px;
+    }
+    
+}
+
+@media (min-width: 1870px) {
+    img{
+        width: 900px;
+    }
+
+    #entertest {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0 auto;
+        flex: 1 0 400px;
+        gap: 10px;
+    }
+    
+}
